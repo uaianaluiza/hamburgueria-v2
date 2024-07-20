@@ -12,17 +12,13 @@ Clean Architecture conhecimhento adquirido com o projeto que estava atuando no t
  - Indepêndencia de qualquer agência externa
 
 O livro tem uma parte muito interessante também sobre Princípios de Design
- &nbsp;
- **S**RP - O princípio da responsabilidade única
- &nbsp;
- **O**CP - O princípio Aberto/Fechado
- &nbsp;
- **L**SP - O princípio de Substituiçao de Liskov
- &nbsp;
- **I**SP - O princípio da Segregação de Interface
- &nbsp;
- **D**IP - O princípio da Inversão de dependência
- &nbsp;
+ 
+ **S**RP - O princípio da responsabilidade única\
+ **O**CP - O princípio Aberto/Fechado\
+ **L**SP - O princípio de Substituiçao de Liskov\
+ **I**SP - O princípio da Segregação de Interface\
+ **D**IP - O princípio da Inversão de dependência\
+ 
 
 Além de falar sobre Paradigmas da Programação (Estruturada, Orientada a objetos e Funcional), componentes, arquitetura ...
 
