@@ -12,7 +12,7 @@ Clean Architecture conhecimhento adquirido com o projeto que estava atuando no t
  - Indepêndencia de qualquer agência externa
 
 O livro tem uma parte muito interessante também sobre Princípios de Design
-
+ &nbsp;
  **S**RP - O princípio da responsabilidade única
  &nbsp;
  **O**CP - O princípio Aberto/Fechado
@@ -22,6 +22,7 @@ O livro tem uma parte muito interessante também sobre Princípios de Design
  **I**SP - O princípio da Segregação de Interface
  &nbsp;
  **D**IP - O princípio da Inversão de dependência
+ &nbsp;
 
 Além de falar sobre Paradigmas da Programação (Estruturada, Orientada a objetos e Funcional), componentes, arquitetura ...
 
