@@ -22,7 +22,7 @@ O livro tem uma parte muito interessante também sobre Princípios de Design
 
 Além de falar sobre Paradigmas da Programação (Estruturada, Orientada a objetos e Funcional), componentes, arquitetura ...
 
-A versão também conta com contêineres Docker 
+A versão também conta com contêineres Docker e alteração do gerenciador de pendências de Maven para Gradle.
 
 ## Sobre o projeto
 
