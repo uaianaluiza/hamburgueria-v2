@@ -1,26 +1,24 @@
-package repository
+package com.hamburguer.repository
 
-
-import com.Lanchonete.hamburguer.core.enuns.Carne
-import com.Lanchonete.hamburguer.core.enuns.Queijo
-import com.Lanchonete.hamburguer.core.enuns.Salada
-import com.Lanchonete.hamburguer.core.enuns.TipoDePao
+import com.hamburguer.core.enuns.Carne
+import com.hamburguer.core.enuns.Queijo
+import com.hamburguer.core.enuns.Salada
+import com.hamburguer.core.enuns.TipoDePao
 import jakarta.persistence.*
 import jakarta.validation.constraints.NotEmpty
 import jakarta.validation.constraints.NotNull
-
 
 @Entity
 @Table(name="hamburguer")
 class HamburguerEntity(
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id", unique = true, nullable = false)
     val id: Int = 0,
 
-    @NotNull(message = "Pao não pode ser nulo")
-    @NotEmpty(message = "Pao não pode ser vazio")
+    @NotNull(message = "Pão não pode ser nulo")
+    @NotEmpty(message = "Pão não pode ser vazio")
     @Column(name = "tipoDePao")
     @Enumerated(EnumType.STRING)
     var tipoDePao: TipoDePao,
@@ -43,5 +41,8 @@ class HamburguerEntity(
     @Enumerated(EnumType.STRING)
     var salada: Salada
 
-)
+){
+    constructor(tipoDePao: TipoDePao, carne: Carne, queijo: Queijo, salada: Salada) :
+            this(0, tipoDePao, carne, queijo, salada)
+}
 
