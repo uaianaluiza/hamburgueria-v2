@@ -1,7 +1,7 @@
 package com.hamburguer.core.gateway
 
-import com.Lanchonete.hamburguer.core.entities.Hamburguer
-import com.Lanchonete.hamburguer.useCase.request.HamburguerRequest
+import com.hamburguer.core.entities.Hamburguer
+import com.hamburguer.useCase.request.HamburguerRequest
 
 interface HamburguerGateway {
 

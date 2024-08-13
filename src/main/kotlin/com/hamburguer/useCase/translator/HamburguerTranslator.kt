@@ -1,7 +1,7 @@
 package com.hamburguer.useCase.translator
 
-import com.Lanchonete.hamburguer.core.entities.Hamburguer
-import repository.HamburguerEntity
+import com.hamburguer.core.entities.Hamburguer
+import com.hamburguer.repository.HamburguerEntity
 
 fun toHamburguer(entity: HamburguerEntity): Hamburguer {
     return Hamburguer(entity.id, entity.tipoDePao, entity.carne, entity.queijo, entity.salada)
