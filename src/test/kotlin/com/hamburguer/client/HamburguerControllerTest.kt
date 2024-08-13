@@ -1,15 +1,15 @@
-package com.santa.hamburgueria.client
+package com.hamburguer.client
 
-import com.Lanchonete.hamburguer.client.HamburguerController
-import com.Lanchonete.hamburguer.core.entities.Hamburguer
-import com.Lanchonete.hamburguer.core.enuns.Carne
-import com.Lanchonete.hamburguer.core.enuns.Queijo
-import com.Lanchonete.hamburguer.core.enuns.Salada
-import com.Lanchonete.hamburguer.core.enuns.TipoDePao
-import com.Lanchonete.hamburguer.useCase.HamburguerService
-import com.Lanchonete.hamburguer.useCase.request.HamburguerRequest
-import com.Lanchonete.hamburguer.useCase.translator.toHamburguer
+import com.hamburguer.core.entities.Hamburguer
+import com.hamburguer.core.enuns.Carne
+import com.hamburguer.core.enuns.Queijo
+import com.hamburguer.core.enuns.Salada
+import com.hamburguer.core.enuns.TipoDePao
+import com.hamburguer.useCase.HamburguerService
+import com.hamburguer.useCase.request.HamburguerRequest
+import com.hamburguer.useCase.translator.toHamburguer
 import com.fasterxml.jackson.databind.ObjectMapper
+import com.hamburguer.repository.HamburguerEntity
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.extension.ExtendWith
 import org.mockito.InjectMocks
@@ -21,7 +21,7 @@ import org.springframework.http.MediaType
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers
 import org.springframework.test.web.servlet.setup.MockMvcBuilders
-import repository.HamburguerEntity
+
 
 @ExtendWith(MockitoExtension::class)
 class HamburguerControllerTest {
