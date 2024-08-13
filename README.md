@@ -27,14 +27,14 @@ A versão também conta com contêineres Docker e alteração do gerenciador de 
 ## Sobre o projeto
 
 ## Api permite que você:
-|Função                                 |        Rota local                               |
-|---------------------------------------|-------------------------------------------------|
-| crie um hambúrguer                    |  http://localhost:8090/hamburguer/              |
-| liste todos os hambúrgueres criados   |  http://localhost:8090/hamburguer/listaTodos/   |
-| buscar Hamburguer Por Id              |  http://localhost:8090/hamburguer/listar/{id}   |
-| alterar um hambúrguer Por Id          |  http://localhost:8090/hamburguer/alterar/{id}  |
-| deletar um hambúrguer Por Id          |  http://localhost:8090/hamburguer/deletar/{id}  |
-| deletar todos os hambúrgueres criados |  http://localhost:8090/hamburguer/deletarTodos/ |
+|Função                                 | Rota local                                     |
+|---------------------------------------|------------------------------------------------|
+| crie um hambúrguer                    | http://localhost:8081/hamburguer/              |
+| liste todos os hambúrgueres criados   | http://localhost:8081/hamburguer/listaTodos/   |
+| buscar Hamburguer Por Id              | http://localhost:8081/hamburguer/listar/{id}   |
+| alterar um hambúrguer Por Id          | http://localhost:8081/hamburguer/alterar/{id}  |
+| deletar um hambúrguer Por Id          | http://localhost:8081/hamburguer/deletar/{id}  |
+| deletar todos os hambúrgueres criados | http://localhost:8081/hamburguer/deletarTodos/ |
 
 ## Tecnologias Utilizadas
 
