@@ -11,12 +11,3 @@ class HamburguerApplicationTests {
 	}
 
 }
-
-@SpringBootTest
-class HamburguerApplicationTests {
-
-	@Test
-	fun contextLoads() {
-	}
-
-}

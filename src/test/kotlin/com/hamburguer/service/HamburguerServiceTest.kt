@@ -1,15 +1,16 @@
-package com.santa.hamburgueria.service
+package com.hamburguer.service
 
-import com.Lanchonete.hamburguer.core.entities.Hamburguer
-import com.Lanchonete.hamburguer.core.enuns.Carne
-import com.Lanchonete.hamburguer.core.enuns.Queijo
-import com.Lanchonete.hamburguer.core.enuns.Salada
-import com.Lanchonete.hamburguer.core.enuns.TipoDePao
-import com.Lanchonete.hamburguer.useCase.HamburguerService
-import com.Lanchonete.hamburguer.useCase.exceptions.HamburguerException
-import com.Lanchonete.hamburguer.useCase.request.HamburguerRequest
-import com.Lanchonete.hamburguer.useCase.translator.toHamburguer
-import com.santa.hamburgueria.repository.HamburguerRepository
+import com.hamburguer.core.entities.Hamburguer
+import com.hamburguer.core.enuns.Carne
+import com.hamburguer.core.enuns.Queijo
+import com.hamburguer.core.enuns.Salada
+import com.hamburguer.core.enuns.TipoDePao
+import com.hamburguer.repository.HamburguerEntity
+import com.hamburguer.repository.HamburguerRepository
+import com.hamburguer.useCase.HamburguerService
+import com.hamburguer.useCase.exceptions.HamburguerException
+import com.hamburguer.useCase.request.HamburguerRequest
+import com.hamburguer.useCase.translator.toHamburguer
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertNotNull
 import org.junit.jupiter.api.DynamicTest
@@ -21,7 +22,6 @@ import org.mockito.InjectMocks
 import org.mockito.Mock
 import org.mockito.Mockito.*
 import org.springframework.boot.test.context.SpringBootTest
-import repository.HamburguerEntity
 import java.util.*
 import java.util.stream.Stream
 
