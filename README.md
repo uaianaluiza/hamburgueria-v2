@@ -48,17 +48,21 @@ A versão também conta com contêineres Docker e alteração do gerenciador de 
 
  - Clean Architecture
 
+## Rodando a aplicação localmente
+
+ - Em seu terminal utilize o seguinte comando: docker compose up
+
 ## Como testar
 
 ### POST
-![](src/img/testePost.jpg)
+![](src/img/Criar.png)
 ### GET/{id}
-![](src/img/testGetId.jpg)
+![](src/img/BuscarPorId.jpg)
 ### PUT/{id}
-![](src/img/testPutId.jpg)
-### DELETE/{id}
-![](src/img/testDeleteId.jpg)
+![](src/img/Alterar.jpg)
 ### GET
-![](src/img/testeListarTodos.jpg)
+![](src/img/ListarTodos.png)
+### DELETE/{id}
+![](src/img/DeletarPorId.png)
 ### DELETE
-![](src/img/testDeleteTodos.jpg)
+![](src/img/DeletarTodos.png)

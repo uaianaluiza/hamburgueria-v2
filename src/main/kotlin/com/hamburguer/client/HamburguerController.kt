@@ -1,6 +1,5 @@
 package com.hamburguer.client
 
-
 import com.hamburguer.core.entities.Hamburguer
 import com.hamburguer.useCase.HamburguerService
 import com.hamburguer.useCase.request.HamburguerRequest
