@@ -1,7 +1,7 @@
 # API REST - :hamburger: SANTA HAMBURGUERIA-v2 :hamburger:
 
 Santa Hamburgueria é o projeto de uma api que tem como objetivo mostrar todas as tecnologias que
-tenho estudado e trabalhado recentemente. Nesta segunda versão alterei a arquitetura de MVC para
+tenho estudado e trabalhado recentemente. Esta segunda versão conta com contêineres Docker e alteração do gerenciador dependências de Maven para Gradle e também alterei a arquitetura de MVC para
 Clean Architecture conhecimhento adquirido com o projeto que estava atuando no trabalho e a leitura do livro
 **Clean Architecture de Robert Cecil Martin**, onde o foco é isolar o domínio da aplicação, resultando no seguintes benefícios:
 
@@ -21,8 +21,6 @@ O livro tem uma parte muito interessante também sobre Princípios de Design
  
 
 Além de falar sobre Paradigmas da Programação (Estruturada, Orientada a objetos e Funcional), componentes, arquitetura ...
-
-A versão também conta com contêineres Docker e alteração do gerenciador de pendências de Maven para Gradle.
 
 ## Sobre o projeto
 
