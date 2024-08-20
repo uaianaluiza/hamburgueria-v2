@@ -44,6 +44,7 @@ A versão também conta com contêineres Docker e alteração do gerenciador de 
  - PostgreSql
  - Gradle
  - Docker
+ - Testes unitários - JUnit e Mockito
 
 ## Modelo Arquiterura
 
